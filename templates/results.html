@@ -1,0 +1,16 @@
+{% block body %}
+<div
+    style="font-size: 50px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+    Knowing Yourself Quiz - Spotify
+</div>
+<hr>
+<div class="form-group mb-0" style="margin-top: 2.5rem; font-size: 2rem;">
+    Score: {{score}} / {{lenQuiz}} <br>
+</div>
+
+<form action="/">
+    <button type="submit" class="btn btn-danger spotify_button" id=""><h4><i class="fab fa-spotify"></i>Return Home</h4></button>
+</form>
+
+
+{% endblock %}
